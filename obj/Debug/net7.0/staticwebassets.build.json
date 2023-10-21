@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "86UteZlihBlVkl4H0VAritf5SrLYjduULfJkfVLUr7s=",
+  "Source": "real-time-chat-backend",
+  "BasePath": "_content/real-time-chat-backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

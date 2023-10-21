@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "real-time-chat-backend", "real-time-chat-backend.csproj", "{6C3CF982-A850-431C-9155-C74F33E1A3DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C3CF982-A850-431C-9155-C74F33E1A3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3CF982-A850-431C-9155-C74F33E1A3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3CF982-A850-431C-9155-C74F33E1A3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3CF982-A850-431C-9155-C74F33E1A3DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "z1ZtChpWJt+BBz2P07KdGTppNqOn08wy7C+DDiCTT4mG1A8Ioy2fEjTjD/bhZomQ2x2KFuoJdAbEo7VYxw9Wgw==",
+  "success": true,
+  "projectFilePath": "E:\\Desarrollo_Web\\Proyectos_FullStack\\real-time-chat\\real-time-chat-backend\\real-time-chat-backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\7.0.12\\microsoft.aspnetcore.connections.abstractions.7.0.12.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\7.0.12\\microsoft.aspnetcore.http.connections.client.7.0.12.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\7.0.12\\microsoft.aspnetcore.http.connections.common.7.0.12.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.12\\microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\7.0.12\\microsoft.aspnetcore.signalr.client.7.0.12.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\7.0.12\\microsoft.aspnetcore.signalr.client.core.7.0.12.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\7.0.12\\microsoft.aspnetcore.signalr.common.7.0.12.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\7.0.12\\microsoft.aspnetcore.signalr.protocols.json.7.0.12.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.extensions.features\\7.0.12\\microsoft.extensions.features.7.0.12.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
