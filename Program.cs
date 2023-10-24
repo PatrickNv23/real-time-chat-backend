@@ -1,4 +1,5 @@
 using real_time_chat_backend.Implementations;
+using Supabase;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,19 @@ builder.Services.AddControllers();
 
 // Add SignalR to the container
 builder.Services.AddSignalR();
+
+// Add Supabase to the container
+builder.Services.AddSingleton<Supabase.Client>(provider =>
+    new Supabase.Client(
+        builder.Configuration["SUPABASE_URL"],
+        builder.Configuration["SUPABASE_API_KEY"],
+        new SupabaseOptions
+        {
+            AutoRefreshToken = true,
+            AutoConnectRealtime = true
+        }
+    )
+);
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

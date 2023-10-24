@@ -41,3 +41,16 @@ E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\
 E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\Debug\net7.0\Microsoft.Extensions.Features.dll
 E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
 E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\Debug\net7.0\Supabase.Functions.dll
+E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\Debug\net7.0\Supabase.Gotrue.dll
+E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\Debug\net7.0\JWTDecoder.dll
+E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\Debug\net7.0\System.ComponentModel.Composition.dll
+E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\Debug\net7.0\MimeMapping.dll
+E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\Debug\net7.0\Newtonsoft.Json.dll
+E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\Debug\net7.0\Supabase.Postgrest.dll
+E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\Debug\net7.0\Supabase.Realtime.dll
+E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\Debug\net7.0\Supabase.Core.dll
+E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\Debug\net7.0\Supabase.dll
+E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\Debug\net7.0\Supabase.Storage.dll
+E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\Debug\net7.0\System.Reactive.dll
+E:\Desarrollo_Web\Proyectos_FullStack\real-time-chat\real-time-chat-backend\bin\Debug\net7.0\Websocket.Client.dll
