@@ -27,4 +27,6 @@ public class User : BaseModel
     public DateTime CreationDate { get; set; }
     [Column("updateDate")]
     public DateTime? UpdateDate { get; set; }
+    [Column("profilePhotoUrl")]
+    public string ProfilePhotoUrl { get; set; }
 }

@@ -17,16 +17,16 @@ public class UserController : ControllerBase
     }
     
     [HttpGet("GetAll")]
-    public async Task<List<GetAllUsersResponse>> GetAll()
+    public async Task<List<GetUserResponse>> GetAll()
     {
         var result = await this._client.From<User>().Get();
         var users = result.Models;
 
-        var usersList = new List<GetAllUsersResponse>();
+        var usersList = new List<GetUserResponse>();
         
         users.ForEach(user =>
         {
-            var item = new GetAllUsersResponse
+            var item = new GetUserResponse
             {
                 Id = user.Id,
                 Name = user.Name,
@@ -38,6 +38,7 @@ public class UserController : ControllerBase
                 UserCode = user.UserCode,
                 PhoneNumber = user.PhoneNumber,
                 UserName = user.UserName,
+                ProfilePhotoUrl = user.ProfilePhotoUrl
             };
 
             usersList.Add(item);

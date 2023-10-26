@@ -2,7 +2,7 @@
 
 namespace real_time_chat_backend.Responses
 {
-	public class GetAllUsersResponse
+	public class GetUserResponse
 	{
 		public int Id { get; set; }
 		public string Name { get; set; }
@@ -14,5 +14,7 @@ namespace real_time_chat_backend.Responses
 		public string UserCode { get; set; }
 		public DateTime CreationDate { get; set; }
 		public DateTime? UpdateDate { get; set; }
+		
+		public string ProfilePhotoUrl { get; set; }
 	}
 }
