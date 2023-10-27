@@ -4,9 +4,7 @@ using real_time_chat_backend.Responses;
 
 namespace real_time_chat_backend.Controllers;
 
-[ApiController]
-[Route("api/[controller]")]
-public class UserController : ControllerBase
+public class UserController : ApiController
 {
     
     private readonly Supabase.Client _client;

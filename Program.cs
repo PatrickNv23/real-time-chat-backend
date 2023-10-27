@@ -1,4 +1,8 @@
 using real_time_chat_backend.Implementations;
+using real_time_chat_backend.Repositories;
+using real_time_chat_backend.Repositories.Interfaces;
+using real_time_chat_backend.Services;
+using real_time_chat_backend.Services.Interfaces;
 using Supabase;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +12,11 @@ var corsPolicyName = "CorsPolicy";
 
 // Add services to the container.
 builder.Services.AddControllers();
+
+// Add dependency injections
+builder.Services.AddRepositoryDependencyInjection();
+builder.Services.AddServiceDependencyInjection();
+
 
 // Add SignalR to the container
 builder.Services.AddSignalR();
