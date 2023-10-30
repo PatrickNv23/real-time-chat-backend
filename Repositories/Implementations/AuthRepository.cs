@@ -1,5 +1,6 @@
 ﻿using real_time_chat_backend.Repositories.Interfaces;
 using real_time_chat_backend.Requests;
+using Supabase.Gotrue;
 
 namespace real_time_chat_backend.Repositories.Implementations;
 
@@ -12,8 +13,13 @@ public class AuthRepository : IAuthRepository
         this._client = client;
     }
 
-    public async Task SignUp(SignUpRequest signUpRequest)
+    public async Task<Session> SignUp(SignUpRequest signUpRequest)
     {
-        var session = await _client.Auth.SignUp(signUpRequest.Email, signUpRequest.Password);
+        return await _client.Auth.SignUp(signUpRequest.Email, signUpRequest.Password);
+    }
+
+    public async Task<Session> SignIn(SignInRequest signInRequest)
+    {
+        return await _client.Auth.SignIn(signInRequest.Email, signInRequest.Password);
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using real_time_chat_backend.Requests;
 using real_time_chat_backend.Services.Interfaces;
+using Supabase.Gotrue;
 
 namespace real_time_chat_backend.Controllers;
 
@@ -14,8 +15,14 @@ public class AuthController : ApiController
     }
 
     [HttpPost("SignUp")]
-    public async Task SignUp([FromBody] SignUpRequest signUpRequest)
+    public async Task<Session> SignUp([FromBody] SignUpRequest signUpRequest)
     {
-        await this._authService.SignUp(signUpRequest);
+        return await this._authService.SignUp(signUpRequest);
+    }
+    
+    [HttpPost("SignIn")]
+    public async Task<Session> SignIn([FromBody] SignInRequest signInRequest)
+    {
+        return await this._authService.SignIn(signInRequest);
     }
 }
