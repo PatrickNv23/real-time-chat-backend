@@ -23,4 +23,9 @@ public class AuthService : IAuthService
     {
         return await this._authRepository.SignIn(signInRequest);
     }
+
+    public async Task<Session> GetCurrentSession()
+    {
+        return await this._authRepository.GetCurrentSession();
+    }
 }

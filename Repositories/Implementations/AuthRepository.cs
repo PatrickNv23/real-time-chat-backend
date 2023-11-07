@@ -22,4 +22,10 @@ public class AuthRepository : IAuthRepository
     {
         return await _client.Auth.SignIn(signInRequest.Email, signInRequest.Password);
     }
+
+    public async Task<Session> GetCurrentSession()
+    {
+        var session = _client.Auth.CurrentSession;
+        return await Task.FromResult(session);
+    }
 }

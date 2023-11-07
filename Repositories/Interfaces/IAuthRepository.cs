@@ -7,4 +7,5 @@ public interface IAuthRepository
 {
     public Task<Session> SignUp(SignUpRequest signUpRequest);
     public Task<Session> SignIn(SignInRequest signInRequest);
+    public Task<Session> GetCurrentSession();
 }

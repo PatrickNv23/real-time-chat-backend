@@ -70,6 +70,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 // link Hub to the route, under MapControllers
-app.MapHub<ChatHub>("/chat");
+app.MapHub<ChatHub>("/api/chat");
 
 app.Run();

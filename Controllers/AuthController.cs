@@ -25,4 +25,10 @@ public class AuthController : ApiController
     {
         return await this._authService.SignIn(signInRequest);
     }
+    
+    [HttpGet("GetCurrentSession")]
+    public async Task<Session> GetCurrentSession()
+    {
+        return await this._authService.GetCurrentSession();
+    }
 }
