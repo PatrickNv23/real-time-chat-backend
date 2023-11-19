@@ -31,4 +31,10 @@ public class AuthController : ApiController
     {
         return await this._authService.GetCurrentSession();
     }
+    
+    [HttpGet("GetCurrentUser")]
+    public async Task<Supabase.Gotrue.User> GetCurrentUser()
+    {
+        return await this._authService.GetCurrentUser();
+    }
 }

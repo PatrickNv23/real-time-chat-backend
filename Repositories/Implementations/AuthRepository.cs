@@ -28,4 +28,10 @@ public class AuthRepository : IAuthRepository
         var session = _client.Auth.CurrentSession;
         return await Task.FromResult(session);
     }
+
+    public async Task<Supabase.Gotrue.User> GetCurrentUser()
+    {
+        var user = _client.Auth.CurrentUser;
+        return await Task.FromResult(user);
+    }
 }

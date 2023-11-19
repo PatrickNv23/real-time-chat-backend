@@ -28,4 +28,9 @@ public class AuthService : IAuthService
     {
         return await this._authRepository.GetCurrentSession();
     }
+
+    public async Task<Supabase.Gotrue.User> GetCurrentUser()
+    {
+        return await this._authRepository.GetCurrentUser();
+    }
 }
