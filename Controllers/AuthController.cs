@@ -8,10 +8,12 @@ namespace real_time_chat_backend.Controllers;
 public class AuthController : ApiController
 {
     private readonly IAuthService _authService;
-
-    public AuthController(IAuthService authService)
+    private readonly Supabase.Client _clientAux;
+    
+    public AuthController(IAuthService authService,Supabase.Client client)
     {
         this._authService = authService;
+        this._clientAux = client;
     }
 
     [HttpPost("SignUp")]
@@ -36,5 +38,13 @@ public class AuthController : ApiController
     public async Task<Supabase.Gotrue.User> GetCurrentUser()
     {
         return await this._authService.GetCurrentUser();
+    }
+    
+    [HttpPost("GetCurrentUserWithToken")]
+    public async Task<Supabase.Gotrue.User> GetCurrentUserWithToken([FromBody] string token)
+    {
+        var user = await _clientAux.Auth.GetUser(token);
+            
+        return await Task.FromResult(user);
     }
 }
